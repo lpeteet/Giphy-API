@@ -1,0 +1,36 @@
+/* p, button, div, form, input {
+  margin: 10px;
+}
+*/
+.btn {
+  margin: 5px;
+}
+
+body {
+  background-color: gray;
+}
+
+p {
+  font-weight: bold;
+}
+
+.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  /* width: 120px; */
+  width: 200px;
+  height: 180px;
+  margin: 10px;
+}
+/* img {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+}
+ */
+.caption {
+  float: left;
+  clear: both;
+  display: block;
+}
