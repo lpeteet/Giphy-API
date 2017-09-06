@@ -1,0 +1,53 @@
+/* p, button, div, form, input {
+  margin: 10px;
+}
+*/
+.btn {
+  margin: 5px;
+}
+
+body {
+  background-color: gray;
+}
+
+p {
+  font-weight: bold;
+}
+
+.item {
+  vertical-align: top;
+  display: inline-block;
+  /* width: 120px; */
+  /* width: 200px; */
+  /* height: 180px; */
+  width: 220px;
+  height: 180px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 100%;
+  margin: 15px 15px 25px 0px;
+}
+
+.images {
+  border-width: medium;
+  border-color: blue;
+  border-style: groove;
+  margin: 15px 15px 25px 0px;
+}
+/* img {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+}
+ */
+
+ .caption {
+  float: left;
+  clear: both;
+  display: block;
+}
+
+h2 {
+  text-align: center;
+}
+
