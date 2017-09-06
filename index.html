@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- Giphy-API
+    array of Animals
+    10 Images from Search displayed in Still State initially
+    Click on Image, Animates
+    Click again, Still
+    Buttons at top with Select Term
+    Right Side: Add an Animal Label with Form Input and Submit Button
+    Adds New Search Term to Array and Adds Button to Form
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Giphy Animals</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <h2>Animal Search</h2>
+
+        <!-- Rendered Buttons will get Dumped Here  -->
+        <hr>
+        <div id="buttons-view"></div>
+
+        <hr>
+
+        <!-- Create Bootstrap Row with 2 Columns, one for Images and one for "Add an Animal Input Box and Submit Button" -->
+        <div class="row">
+<!--        <div id="small-img" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center animals-view">
+                <ul>
+                <li>
+                    <img src="http://placehold.it/150x100" class="img-responsive inline-block" alt="Responsive image" />
+                </li>
+                <li>
+                    <img src="http://placehold.it/150x100" class="img-responsive inline-block" alt="Responsive image" />
+                </li>
+                <li>
+                    <img src="http://placehold.it/150x100" class="img-responsive inline-block" alt="Responsive image" />
+                </li>
+                </ul>
+            </div>
+ -->
+            <div class="col-lg-8">
+                <!-- Animals will get dumped here -->
+            <div id="animals-view"></div>
+            </div>
+            <div class="col-lg-4">
+                <form>
+                    <div>
+                        <p>Add an Animal</p>
+                        <input type="text" id="animal-input">
+                        <br>
+                        <br>
+                        <input type="submit" class = "btn btn-primary">
+                    </div>
+                </form>
+            </div>
+        </div> <!-- ROW -->
+     </div>
+  </body>>
+</html>
